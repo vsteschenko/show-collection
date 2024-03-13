@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+@media screen and (min-width: 540px) {
+    body {
+        background-color: palegreen;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+    }
+    .card {
+        width: 100%;
+        .buttonYellow {
+            margin: 2%  5%;
+        }
+    }
+}
+@media screen and (min-width: 700px) {
+    .card {
+        .buttonYellow {
+            margin: 2%  5%;
+        }
+    }
+    .intelligence {
+        display: flex;
+    }
+    .card {
+        width: 43.6%;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .card {
+        width:  28.5%;
+    }
+}

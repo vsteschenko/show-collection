@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+}
+.container h1 {
+  color: darkblue;
+}
+.container p {
+  color: darkblue;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 100%;
+  border: 1px solid red;
+  background-color: rgb(202, 198, 198);
+  border-radius: 10px;
+}
+.card img {
+  height: 20em;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card .buttonYellow {
+  margin: 5%;
+  width: 70px;
+  padding: 2px 5px;
+  height: 25px;
+  background-color: #ffeb3b;
+  border-radius: 5px;
+  border: 0px solid #ffeb3b;
+  font-size: 15px;
+}
+.card .buttonBlue {
+  margin: 5% 1%;
+  width: 100px;
+  height: 25px;
+  padding: 5px 15px;
+  background-color: #03a9f4;
+  border-radius: 5px;
+  border: 0px solid #03a9f4;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.secondHeadBox {
+  width: 70%;
+  margin-left: 5%;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: darkblue;
+  margin-left: 5%;
+}
+
+@media screen and (min-width: 540px) {
+  body {
+    background-color: palegreen;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .card {
+    width: 100%;
+  }
+  .card .buttonYellow {
+    margin: 2% 5%;
+  }
+}
+@media screen and (min-width: 700px) {
+  .card .buttonYellow {
+    margin: 2% 5%;
+  }
+  .intelligence {
+    display: flex;
+  }
+  .card {
+    width: 43.6%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .card {
+    width: 28.5%;
+  }
+}/*# sourceMappingURL=style.css.map */
